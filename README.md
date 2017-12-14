@@ -1,21 +1,21 @@
-# Sanseido Definitions Plugin for Anki
+# Hanseido for Anki
 
-This is a plugin for [Anki](http://ankisrs.net/), an open source flashcard system. It pulls simplified J-J definitions from [sanseido.net](http://www.sanseido.net)'s デイリーコンサイス国語辞典 (Daily Concise Kokugo Jiten).
+[Anki](http://ankisrs.net/) - SRS free software - plugin that extracts KR-KR definitions from [NAVER Dictionary](http://dic.naver.com/) or [National Institute of Korean Language's Dictionary](https://krdict.korean.go.kr/mainAction). Based on [Sanseido Definitions](https://ankiweb.net/shared/info/1967553085)
 
-## Usage
+## How to Use
 
-The plugin relies on having 2 fields,
+Hanseido needs two fields, as Sanseido:
   * Word - The Japanese word to look up on sanseido
-  * Sanseido - The field to insert the definition into
+  * Hanseido - The field to insert the definition into
 
 If you'd like to change the names of these fields, edit lines 20-21 in sanseidoDefsForAnki.py
 
-To add definitions, find the card in the browser window, and click Edit > Regenerate Sanseido definitions
+To add definitions, find the card in the browser window, and click Edit > Regenerate Hanseido definitions
 
 ## Help on reading the definitions
 
-Sanseido has some nice [辞書凡例](http://www.sanseido.net/main/Dictionary/Hanrei/dailyJJ.aspx) (Dictionary explanatory notes) for デイリーコンサイス国語辞典. Explanation on the symbols and abbreviations used can be found in section 9, 記号・略語一覧.
+Both NAVER Dictionary and NIKL's dictionary have English modes.
 
 ## Bugs?
 
-Report bugs and issues to the plugin GitHub page [here](https://github.com/kqueryful/Sanseido-Definitions).
+Report bugs and issues to the plugin GitHub page [here](https://github.com/jjamaja/Hanseido).
